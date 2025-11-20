@@ -8,7 +8,6 @@ contract HaikuNFT {
         string line2;
         string line3;
     }
-
     Haiku[] public haikus;
     mapping(address => uint256[]) public sharedHaikus;
     uint256 public counter = 1;
@@ -55,3 +54,4 @@ contract HaikuNFT {
         return result;
     }
 }
+
